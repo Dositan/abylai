@@ -1,15 +1,15 @@
 {
   "name": "abylai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Boribay bot's successor. Built using Discord.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "deploy": "node deploy-commands.js",
+    "dev": "node .",
+    "deploy": "node src/deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dastan Ozgeldi<ozgdastan@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@discordjs/builders": "^0.15.0",
