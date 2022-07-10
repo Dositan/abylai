@@ -4,9 +4,10 @@
   "description": "Boribay bot's successor. Built using Discord.js",
   "main": "src/index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node .",
     "deploy": "node src/deploy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "Dastan Ozgeldi<ozgdastan@gmail.com>",
