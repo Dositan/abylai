@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const Tags = require("../../tags");
+const Tags = require("../tags");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -24,9 +24,9 @@ module.exports = {
     );
 
     if (affectedRows > 0) {
-        return interaction.reply(`Tag ${name} was edited.`)
+      return interaction.reply(`Tag ${name} was edited.`);
     }
 
-    return interaction.reply(`Could not find a tag with name ${name}.`)
+    return interaction.reply(`Could not find a tag with name ${name}.`);
   },
 };

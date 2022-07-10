@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const Tags = require("../../tags");
+const Tags = require("../tags");
 
 module.exports = {
   data: new SlashCommandBuilder()
